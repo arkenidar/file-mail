@@ -20,7 +20,7 @@
     <ul>
         <?php
 
-        $dir = "/var/www/workerbase.org/$uri";
+        $dir = "/var/www/workerbase.org/public_html/$uri";
 
         $files = scandir($dir);
         $files = array_diff($files, array('.', '..'));
